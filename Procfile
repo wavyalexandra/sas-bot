@@ -1,1 +1,1 @@
-python bot.py
+worker: pip install pyTelegramBotAPI && python bot.py
