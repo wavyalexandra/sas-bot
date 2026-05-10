@@ -4,8 +4,8 @@ import json
 import os
 
 # ─── НАСТРОЙКИ ────────────────────────────────────────────────
-BOT_TOKEN = "8753510477:AAGQ_RrHQcwJJfSCjl7vjs8lWEC7w3rPNlQ"
-MANAGER_CHAT_ID = "-1003685053316"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "ВАШ_ТОКЕН_ЗДЕСЬ")
+MANAGER_CHAT_ID = os.environ.get("MANAGER_CHAT_ID", "ВАШ_CHAT_ID_ЗДЕСЬ")
 CATALOG_FILE = "catalog.json"
 CATALOG_PDF  = "catalog.pdf"
 PHOTOS_DIR   = "photos"
